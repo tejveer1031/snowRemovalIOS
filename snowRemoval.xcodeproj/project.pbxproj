@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9386E2C727F01CCF007D9CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */; };
+		9386E2C927F01CD0007D9CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */; };
+		9386E2CB27F01CD0007D9CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2CA27F01CD0007D9CB0 /* ViewController.swift */; };
+		9386E2CE27F01CD0007D9CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9386E2CC27F01CD0007D9CB0 /* Main.storyboard */; };
+		9386E2D127F01CD0007D9CB0 /* snowRemoval.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2CF27F01CD0007D9CB0 /* snowRemoval.xcdatamodeld */; };
+		9386E2D327F01CD1007D9CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9386E2D227F01CD1007D9CB0 /* Assets.xcassets */; };
+		9386E2D627F01CD1007D9CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9386E2D427F01CD1007D9CB0 /* LaunchScreen.storyboard */; };
+		9386E2E127F01CD1007D9CB0 /* snowRemovalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2E027F01CD1007D9CB0 /* snowRemovalTests.swift */; };
+		9386E2EB27F01CD1007D9CB0 /* snowRemovalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2EA27F01CD1007D9CB0 /* snowRemovalUITests.swift */; };
+		9386E2ED27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2EC27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9386E2DD27F01CD1007D9CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9386E2BB27F01CCF007D9CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9386E2C227F01CCF007D9CB0;
+			remoteInfo = snowRemoval;
+		};
+		9386E2E727F01CD1007D9CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9386E2BB27F01CCF007D9CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9386E2C227F01CCF007D9CB0;
+			remoteInfo = snowRemoval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9386E2C327F01CCF007D9CB0 /* snowRemoval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snowRemoval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9386E2CA27F01CD0007D9CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9386E2CD27F01CD0007D9CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9386E2D027F01CD0007D9CB0 /* snowRemoval.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = snowRemoval.xcdatamodel; sourceTree = "<group>"; };
+		9386E2D227F01CD1007D9CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9386E2D527F01CD1007D9CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9386E2D727F01CD1007D9CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9386E2DC27F01CD1007D9CB0 /* snowRemovalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowRemovalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9386E2E027F01CD1007D9CB0 /* snowRemovalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowRemovalTests.swift; sourceTree = "<group>"; };
+		9386E2E627F01CD1007D9CB0 /* snowRemovalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowRemovalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9386E2EA27F01CD1007D9CB0 /* snowRemovalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowRemovalUITests.swift; sourceTree = "<group>"; };
+		9386E2EC27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowRemovalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9386E2C027F01CCF007D9CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2D927F01CD1007D9CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2E327F01CD1007D9CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9386E2BA27F01CCF007D9CB0 = {
+			isa = PBXGroup;
+			children = (
+				9386E2C527F01CCF007D9CB0 /* snowRemoval */,
+				9386E2DF27F01CD1007D9CB0 /* snowRemovalTests */,
+				9386E2E927F01CD1007D9CB0 /* snowRemovalUITests */,
+				9386E2C427F01CCF007D9CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9386E2C427F01CCF007D9CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2C327F01CCF007D9CB0 /* snowRemoval.app */,
+				9386E2DC27F01CD1007D9CB0 /* snowRemovalTests.xctest */,
+				9386E2E627F01CD1007D9CB0 /* snowRemovalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9386E2C527F01CCF007D9CB0 /* snowRemoval */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */,
+				9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */,
+				9386E2CA27F01CD0007D9CB0 /* ViewController.swift */,
+				9386E2CC27F01CD0007D9CB0 /* Main.storyboard */,
+				9386E2D227F01CD1007D9CB0 /* Assets.xcassets */,
+				9386E2D427F01CD1007D9CB0 /* LaunchScreen.storyboard */,
+				9386E2D727F01CD1007D9CB0 /* Info.plist */,
+				9386E2CF27F01CD0007D9CB0 /* snowRemoval.xcdatamodeld */,
+			);
+			path = snowRemoval;
+			sourceTree = "<group>";
+		};
+		9386E2DF27F01CD1007D9CB0 /* snowRemovalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2E027F01CD1007D9CB0 /* snowRemovalTests.swift */,
+			);
+			path = snowRemovalTests;
+			sourceTree = "<group>";
+		};
+		9386E2E927F01CD1007D9CB0 /* snowRemovalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2EA27F01CD1007D9CB0 /* snowRemovalUITests.swift */,
+				9386E2EC27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift */,
+			);
+			path = snowRemovalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9386E2C227F01CCF007D9CB0 /* snowRemoval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9386E2F027F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemoval" */;
+			buildPhases = (
+				9386E2BF27F01CCF007D9CB0 /* Sources */,
+				9386E2C027F01CCF007D9CB0 /* Frameworks */,
+				9386E2C127F01CCF007D9CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snowRemoval;
+			productName = snowRemoval;
+			productReference = 9386E2C327F01CCF007D9CB0 /* snowRemoval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9386E2DB27F01CD1007D9CB0 /* snowRemovalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9386E2F327F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalTests" */;
+			buildPhases = (
+				9386E2D827F01CD1007D9CB0 /* Sources */,
+				9386E2D927F01CD1007D9CB0 /* Frameworks */,
+				9386E2DA27F01CD1007D9CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9386E2DE27F01CD1007D9CB0 /* PBXTargetDependency */,
+			);
+			name = snowRemovalTests;
+			productName = snowRemovalTests;
+			productReference = 9386E2DC27F01CD1007D9CB0 /* snowRemovalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9386E2E527F01CD1007D9CB0 /* snowRemovalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9386E2F627F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalUITests" */;
+			buildPhases = (
+				9386E2E227F01CD1007D9CB0 /* Sources */,
+				9386E2E327F01CD1007D9CB0 /* Frameworks */,
+				9386E2E427F01CD1007D9CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9386E2E827F01CD1007D9CB0 /* PBXTargetDependency */,
+			);
+			name = snowRemovalUITests;
+			productName = snowRemovalUITests;
+			productReference = 9386E2E627F01CD1007D9CB0 /* snowRemovalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9386E2BB27F01CCF007D9CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9386E2C227F01CCF007D9CB0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9386E2DB27F01CD1007D9CB0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9386E2C227F01CCF007D9CB0;
+					};
+					9386E2E527F01CD1007D9CB0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9386E2C227F01CCF007D9CB0;
+					};
+				};
+			};
+			buildConfigurationList = 9386E2BE27F01CCF007D9CB0 /* Build configuration list for PBXProject "snowRemoval" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9386E2BA27F01CCF007D9CB0;
+			productRefGroup = 9386E2C427F01CCF007D9CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9386E2C227F01CCF007D9CB0 /* snowRemoval */,
+				9386E2DB27F01CD1007D9CB0 /* snowRemovalTests */,
+				9386E2E527F01CD1007D9CB0 /* snowRemovalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9386E2C127F01CCF007D9CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386E2D627F01CD1007D9CB0 /* LaunchScreen.storyboard in Resources */,
+				9386E2D327F01CD1007D9CB0 /* Assets.xcassets in Resources */,
+				9386E2CE27F01CD0007D9CB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2DA27F01CD1007D9CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2E427F01CD1007D9CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9386E2BF27F01CCF007D9CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386E2CB27F01CD0007D9CB0 /* ViewController.swift in Sources */,
+				9386E2D127F01CD0007D9CB0 /* snowRemoval.xcdatamodeld in Sources */,
+				9386E2C727F01CCF007D9CB0 /* AppDelegate.swift in Sources */,
+				9386E2C927F01CD0007D9CB0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2D827F01CD1007D9CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386E2E127F01CD1007D9CB0 /* snowRemovalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9386E2E227F01CD1007D9CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386E2ED27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift in Sources */,
+				9386E2EB27F01CD1007D9CB0 /* snowRemovalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9386E2DE27F01CD1007D9CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9386E2C227F01CCF007D9CB0 /* snowRemoval */;
+			targetProxy = 9386E2DD27F01CD1007D9CB0 /* PBXContainerItemProxy */;
+		};
+		9386E2E827F01CD1007D9CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9386E2C227F01CCF007D9CB0 /* snowRemoval */;
+			targetProxy = 9386E2E727F01CD1007D9CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9386E2CC27F01CD0007D9CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9386E2CD27F01CD0007D9CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9386E2D427F01CD1007D9CB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9386E2D527F01CD1007D9CB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9386E2EE27F01CD1007D9CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9386E2EF27F01CD1007D9CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9386E2F127F01CD1007D9CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snowRemoval/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemoval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9386E2F227F01CD1007D9CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snowRemoval/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemoval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9386E2F427F01CD1007D9CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemovalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snowRemoval.app/snowRemoval";
+			};
+			name = Debug;
+		};
+		9386E2F527F01CD1007D9CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemovalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snowRemoval.app/snowRemoval";
+			};
+			name = Release;
+		};
+		9386E2F727F01CD1007D9CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemovalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snowRemoval;
+			};
+			name = Debug;
+		};
+		9386E2F827F01CD1007D9CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NPDADPQ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hayer.orgnisation.snowRemovalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snowRemoval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9386E2BE27F01CCF007D9CB0 /* Build configuration list for PBXProject "snowRemoval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9386E2EE27F01CD1007D9CB0 /* Debug */,
+				9386E2EF27F01CD1007D9CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9386E2F027F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemoval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9386E2F127F01CD1007D9CB0 /* Debug */,
+				9386E2F227F01CD1007D9CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9386E2F327F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9386E2F427F01CD1007D9CB0 /* Debug */,
+				9386E2F527F01CD1007D9CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9386E2F627F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9386E2F727F01CD1007D9CB0 /* Debug */,
+				9386E2F827F01CD1007D9CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9386E2CF27F01CD0007D9CB0 /* snowRemoval.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9386E2D027F01CD0007D9CB0 /* snowRemoval.xcdatamodel */,
+			);
+			currentVersion = 9386E2D027F01CD0007D9CB0 /* snowRemoval.xcdatamodel */;
+			path = snowRemoval.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9386E2BB27F01CCF007D9CB0 /* Project object */;
+}

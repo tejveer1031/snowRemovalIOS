@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144BE7C388CBBE0829002B4C /* Pods_snowRemoval_snowRemovalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3227168FA6C4E38A8C2F31FF /* Pods_snowRemoval_snowRemovalUITests.framework */; };
+		935209FB27FA57DC00DABE91 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935209FA27FA57DC00DABE91 /* SignInViewController.swift */; };
+		935209FD27FA588A00DABE91 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935209FC27FA588A00DABE91 /* SignIn.storyboard */; };
+		93780B9127FAA32D0017A3D8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93780B9027FAA32D0017A3D8 /* SignUpViewController.swift */; };
+		937B5BE627FB28F70022BFF9 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B5BE527FB28F70022BFF9 /* PersonViewController.swift */; };
+		937B5BE827FB29240022BFF9 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B5BE727FB29240022BFF9 /* OrderViewController.swift */; };
+		937B5BEA27FB29390022BFF9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B5BE927FB29390022BFF9 /* AboutViewController.swift */; };
+		937B5BEC27FB58340022BFF9 /* LauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B5BEB27FB58340022BFF9 /* LauncherViewController.swift */; };
+		937B5BF027FBD3A60022BFF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 937B5BEF27FBD3A60022BFF9 /* GoogleService-Info.plist */; };
+		937B5BF227FBDC980022BFF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B5BF127FBDC980022BFF9 /* HomeViewController.swift */; };
 		9386E2C727F01CCF007D9CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */; };
 		9386E2C927F01CD0007D9CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */; };
 		9386E2CB27F01CD0007D9CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2CA27F01CD0007D9CB0 /* ViewController.swift */; };
@@ -17,6 +27,8 @@
 		9386E2E127F01CD1007D9CB0 /* snowRemovalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2E027F01CD1007D9CB0 /* snowRemovalTests.swift */; };
 		9386E2EB27F01CD1007D9CB0 /* snowRemovalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2EA27F01CD1007D9CB0 /* snowRemovalUITests.swift */; };
 		9386E2ED27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386E2EC27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift */; };
+		C50CC4265FE332859CDD680C /* Pods_snowRemovalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B168F7E4E4FA4E3D4298A1A2 /* Pods_snowRemovalTests.framework */; };
+		FB788CCE3C296BF1F810D9FB /* Pods_snowRemoval.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5750FDE23CFC440D383ECF7 /* Pods_snowRemoval.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3227168FA6C4E38A8C2F31FF /* Pods_snowRemoval_snowRemovalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowRemoval_snowRemovalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F6748FA693CAD49ECE92B0 /* Pods-snowRemoval.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemoval.debug.xcconfig"; path = "Target Support Files/Pods-snowRemoval/Pods-snowRemoval.debug.xcconfig"; sourceTree = "<group>"; };
+		7BFADC9894D80D700F1ED8AC /* Pods-snowRemovalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemovalTests.debug.xcconfig"; path = "Target Support Files/Pods-snowRemovalTests/Pods-snowRemovalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		935209FA27FA57DC00DABE91 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		935209FC27FA588A00DABE91 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		93780B9027FAA32D0017A3D8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		937B5BE527FB28F70022BFF9 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		937B5BE727FB29240022BFF9 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		937B5BE927FB29390022BFF9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		937B5BEB27FB58340022BFF9 /* LauncherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewController.swift; sourceTree = "<group>"; };
+		937B5BEF27FBD3A60022BFF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		937B5BF127FBDC980022BFF9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9386E2C327F01CCF007D9CB0 /* snowRemoval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snowRemoval.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +75,12 @@
 		9386E2E627F01CD1007D9CB0 /* snowRemovalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowRemovalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9386E2EA27F01CD1007D9CB0 /* snowRemovalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowRemovalUITests.swift; sourceTree = "<group>"; };
 		9386E2EC27F01CD1007D9CB0 /* snowRemovalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowRemovalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		941D1B751B61A1279D5597FD /* Pods-snowRemoval-snowRemovalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemoval-snowRemovalUITests.debug.xcconfig"; path = "Target Support Files/Pods-snowRemoval-snowRemovalUITests/Pods-snowRemoval-snowRemovalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC8B9EE29F82288D928E0AEE /* Pods-snowRemoval-snowRemovalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemoval-snowRemovalUITests.release.xcconfig"; path = "Target Support Files/Pods-snowRemoval-snowRemovalUITests/Pods-snowRemoval-snowRemovalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B168F7E4E4FA4E3D4298A1A2 /* Pods_snowRemovalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowRemovalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDFDE534C920F19BFCA7671 /* Pods-snowRemoval.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemoval.release.xcconfig"; path = "Target Support Files/Pods-snowRemoval/Pods-snowRemoval.release.xcconfig"; sourceTree = "<group>"; };
+		D5750FDE23CFC440D383ECF7 /* Pods_snowRemoval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snowRemoval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F8F3EE75624BA4E4AF0602 /* Pods-snowRemovalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snowRemovalTests.release.xcconfig"; path = "Target Support Files/Pods-snowRemovalTests/Pods-snowRemovalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB788CCE3C296BF1F810D9FB /* Pods_snowRemoval.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50CC4265FE332859CDD680C /* Pods_snowRemovalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144BE7C388CBBE0829002B4C /* Pods_snowRemoval_snowRemovalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09CA5DAD447782D9273B5E5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F6748FA693CAD49ECE92B0 /* Pods-snowRemoval.debug.xcconfig */,
+				CCDFDE534C920F19BFCA7671 /* Pods-snowRemoval.release.xcconfig */,
+				941D1B751B61A1279D5597FD /* Pods-snowRemoval-snowRemovalUITests.debug.xcconfig */,
+				AC8B9EE29F82288D928E0AEE /* Pods-snowRemoval-snowRemovalUITests.release.xcconfig */,
+				7BFADC9894D80D700F1ED8AC /* Pods-snowRemovalTests.debug.xcconfig */,
+				F5F8F3EE75624BA4E4AF0602 /* Pods-snowRemovalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73BB4C2EBE655A43C95ACBA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5750FDE23CFC440D383ECF7 /* Pods_snowRemoval.framework */,
+				3227168FA6C4E38A8C2F31FF /* Pods_snowRemoval_snowRemovalUITests.framework */,
+				B168F7E4E4FA4E3D4298A1A2 /* Pods_snowRemovalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935209F927FA578700DABE91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2CA27F01CD0007D9CB0 /* ViewController.swift */,
+				935209FA27FA57DC00DABE91 /* SignInViewController.swift */,
+				93780B9027FAA32D0017A3D8 /* SignUpViewController.swift */,
+				937B5BE527FB28F70022BFF9 /* PersonViewController.swift */,
+				937B5BE727FB29240022BFF9 /* OrderViewController.swift */,
+				937B5BE927FB29390022BFF9 /* AboutViewController.swift */,
+				937B5BEB27FB58340022BFF9 /* LauncherViewController.swift */,
+				937B5BF127FBDC980022BFF9 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9386E2BA27F01CCF007D9CB0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 				9386E2DF27F01CD1007D9CB0 /* snowRemovalTests */,
 				9386E2E927F01CD1007D9CB0 /* snowRemovalUITests */,
 				9386E2C427F01CCF007D9CB0 /* Products */,
+				09CA5DAD447782D9273B5E5B /* Pods */,
+				73BB4C2EBE655A43C95ACBA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +176,12 @@
 			children = (
 				9386E2C627F01CCF007D9CB0 /* AppDelegate.swift */,
 				9386E2C827F01CD0007D9CB0 /* SceneDelegate.swift */,
-				9386E2CA27F01CD0007D9CB0 /* ViewController.swift */,
-				9386E2CC27F01CD0007D9CB0 /* Main.storyboard */,
+				935209F927FA578700DABE91 /* Controller */,
+				9386E2FA27F0220D007D9CB0 /* View */,
+				9386E2F927F021E7007D9CB0 /* Model */,
 				9386E2D227F01CD1007D9CB0 /* Assets.xcassets */,
-				9386E2D427F01CD1007D9CB0 /* LaunchScreen.storyboard */,
 				9386E2D727F01CD1007D9CB0 /* Info.plist */,
+				937B5BEF27FBD3A60022BFF9 /* GoogleService-Info.plist */,
 				9386E2CF27F01CD0007D9CB0 /* snowRemoval.xcdatamodeld */,
 			);
 			path = snowRemoval;
@@ -130,6 +204,23 @@
 			path = snowRemovalUITests;
 			sourceTree = "<group>";
 		};
+		9386E2F927F021E7007D9CB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9386E2FA27F0220D007D9CB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9386E2CC27F01CD0007D9CB0 /* Main.storyboard */,
+				9386E2D427F01CD1007D9CB0 /* LaunchScreen.storyboard */,
+				935209FC27FA588A00DABE91 /* SignIn.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9386E2F027F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemoval" */;
 			buildPhases = (
+				9993C4C760E4B329A424CB3C /* [CP] Check Pods Manifest.lock */,
 				9386E2BF27F01CCF007D9CB0 /* Sources */,
 				9386E2C027F01CCF007D9CB0 /* Frameworks */,
 				9386E2C127F01CCF007D9CB0 /* Resources */,
+				DBE8B6414F1E74C04431EB4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9386E2F327F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalTests" */;
 			buildPhases = (
+				C63E5EFE7D72879E31E77A6A /* [CP] Check Pods Manifest.lock */,
 				9386E2D827F01CD1007D9CB0 /* Sources */,
 				9386E2D927F01CD1007D9CB0 /* Frameworks */,
 				9386E2DA27F01CD1007D9CB0 /* Resources */,
@@ -172,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9386E2F627F01CD1007D9CB0 /* Build configuration list for PBXNativeTarget "snowRemovalUITests" */;
 			buildPhases = (
+				C07F66365E4871FA9C3BCC1A /* [CP] Check Pods Manifest.lock */,
 				9386E2E227F01CD1007D9CB0 /* Sources */,
 				9386E2E327F01CD1007D9CB0 /* Frameworks */,
 				9386E2E427F01CD1007D9CB0 /* Resources */,
+				5F656BAD1B368AFD9983B15D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +330,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937B5BF027FBD3A60022BFF9 /* GoogleService-Info.plist in Resources */,
+				935209FD27FA588A00DABE91 /* SignIn.storyboard in Resources */,
 				9386E2D627F01CD1007D9CB0 /* LaunchScreen.storyboard in Resources */,
 				9386E2D327F01CD1007D9CB0 /* Assets.xcassets in Resources */,
 				9386E2CE27F01CD0007D9CB0 /* Main.storyboard in Resources */,
@@ -256,15 +354,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F656BAD1B368AFD9983B15D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snowRemoval-snowRemovalUITests/Pods-snowRemoval-snowRemovalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snowRemoval-snowRemovalUITests/Pods-snowRemoval-snowRemovalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snowRemoval-snowRemovalUITests/Pods-snowRemoval-snowRemovalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9993C4C760E4B329A424CB3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snowRemoval-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07F66365E4871FA9C3BCC1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snowRemoval-snowRemovalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63E5EFE7D72879E31E77A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snowRemovalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE8B6414F1E74C04431EB4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snowRemoval/Pods-snowRemoval-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snowRemoval/Pods-snowRemoval-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snowRemoval/Pods-snowRemoval-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9386E2BF27F01CCF007D9CB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93780B9127FAA32D0017A3D8 /* SignUpViewController.swift in Sources */,
 				9386E2CB27F01CD0007D9CB0 /* ViewController.swift in Sources */,
 				9386E2D127F01CD0007D9CB0 /* snowRemoval.xcdatamodeld in Sources */,
+				937B5BEA27FB29390022BFF9 /* AboutViewController.swift in Sources */,
 				9386E2C727F01CCF007D9CB0 /* AppDelegate.swift in Sources */,
+				935209FB27FA57DC00DABE91 /* SignInViewController.swift in Sources */,
+				937B5BEC27FB58340022BFF9 /* LauncherViewController.swift in Sources */,
+				937B5BF227FBDC980022BFF9 /* HomeViewController.swift in Sources */,
 				9386E2C927F01CD0007D9CB0 /* SceneDelegate.swift in Sources */,
+				937B5BE627FB28F70022BFF9 /* PersonViewController.swift in Sources */,
+				937B5BE827FB29240022BFF9 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +644,7 @@
 		};
 		9386E2F127F01CD1007D9CB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F6748FA693CAD49ECE92B0 /* Pods-snowRemoval.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +673,7 @@
 		};
 		9386E2F227F01CD1007D9CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDFDE534C920F19BFCA7671 /* Pods-snowRemoval.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +702,7 @@
 		};
 		9386E2F427F01CD1007D9CB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFADC9894D80D700F1ED8AC /* Pods-snowRemovalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +723,7 @@
 		};
 		9386E2F527F01CD1007D9CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F8F3EE75624BA4E4AF0602 /* Pods-snowRemovalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +744,7 @@
 		};
 		9386E2F727F01CD1007D9CB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941D1B751B61A1279D5597FD /* Pods-snowRemoval-snowRemovalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +763,7 @@
 		};
 		9386E2F827F01CD1007D9CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8B9EE29F82288D928E0AEE /* Pods-snowRemoval-snowRemovalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

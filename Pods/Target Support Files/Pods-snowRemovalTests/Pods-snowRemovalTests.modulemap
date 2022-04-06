@@ -1,0 +1,6 @@
+framework module Pods_snowRemovalTests {
+  umbrella header "Pods-snowRemovalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
